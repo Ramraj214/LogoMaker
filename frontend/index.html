@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Logo King</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <div class="header">
+        <h1>The Logo King</h1>
+        <div class="btn_one">
+            <label for="menu_toggle" id="hamburger" class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+    </div>
+
+    <div class="sidebar_menu">
+        <div class="menu">
+            <div style="display: flex; justify-content: space-between; align-items: start;">
+                <div class="menu_links">
+                    <a href="#">Gallery</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Feedback</a>
+                    <a href="#" id="signup_btn">Sign Up</a>
+                    <a href="#" id="login_btn">Login</a>
+                </div>
+                <div class="close_menu">
+                    <span id="close_menu_btn">✖</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="social_media" style="display: flex; margin-bottom: 35px;">
+            <div style="padding: 8px;">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div style="padding: 8px;">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div style="padding: 8px;">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div style="padding: 8px;">
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="slideshow">
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="logo/Bluebugs.png" alt="Logo 1">
+            </div>
+            <div class="slide fade">
+                <img src="logo/navaratna.png" alt="Logo 2">
+            </div>
+            <div class="slide fade">
+                <img src="logo/patkar.png" alt="Logo 3">
+            </div>
+            <div class="slide fade">
+                <img src="logo/Antara.png" alt="Logo 4">
+            </div>
+            <div class="slide fade">
+                <img src="logo/Supreme-Pharma.png" alt="Logo 5">
+            </div>
+            <div class="slide fade">
+                <img src="logo/navaratna.png" alt="Logo 2">
+            </div>
+            <div class="slide fade">
+                <img src="logo/patkar.png" alt="Logo 3">
+            </div>
+            <div class="slide fade">
+                <img src="logo/Antara.png" alt="Logo 4">
+            </div>
+            <div class="slide fade">
+                <img src="logo/supreme-pharma.png" alt="Logo 5">
+            </div>
+        </div>
+    </div>
+
+    <div class="logo_creation_area">
+        <div id="logo_display">Your generated logo will appear here.</div>
+        <input type="text" id="logo_input" placeholder="Enter text for your logo">
+        <div class="logo_buttons">
+            <button id="create_logo_btn">Create Logo</button>
+            <a id="download_logo" href="./different-logo.png" download="different_logo.png">Download<i class="fa-solid fa-download"></i></a>
+        </div>
+    </div>
+
+    <div class="bottom_bar">
+        <input type="text" id="message_input" placeholder="Type a message...">
+        <button id="send_btn"><i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+
+    <div id="form_modal" class="modal">
+        <div class="modal_content">
+            <span class="close_modal_btn">✖</span>
+            <div id="form_area"></div>
+        </div>
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
